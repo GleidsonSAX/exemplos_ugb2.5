@@ -1,12 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-int idade = 24;
-Console.WriteLine("a idade" + idade);
-if(idade >= 18)
-    Console.WriteLine("você pode tirar habilitação");
+﻿Console.WriteLine ("informe seu nome");
+string nome = Console.ReadLine();
+Console.WriteLine("informe seu salario:");
+decimal salario = decimal.Parse(Console.ReadLine());
+Console.WriteLine("seja bem vinda, {0},o salario informado foi {1}", nome, salario);
 
- else
-    Console.WriteLine("Você pode tirar habilitação")
-
+//informe valor do irpf  a ser pago de acordo com o salário informe a tabela real de desconto de irpf
 
 
-    
